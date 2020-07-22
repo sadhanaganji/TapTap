@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TapSingle"
+    android:background="@drawable/backgroundcolor">
+
+    <TextView
+        android:id="@+id/maxcount"
+        android:layout_width="346dp"
+        android:layout_height="42dp"
+        android:background="@drawable/custom_button"
+        android:gravity="center"
+        android:text="High Scrore: 91"
+        android:textColor="#000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <Button
+        android:id="@+id/tapbutton"
+        android:layout_width="293dp"
+        android:layout_height="305dp"
+        android:background="@drawable/custom_button"
+        android:text="Tap here \nas fast as you can"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856"
+        tools:ignore="OnClick" />
+
+
+    <Button
+        android:id="@+id/timetext"
+        android:layout_width="135dp"
+        android:layout_height="62dp"
+        android:background="@drawable/custom_button"
+        android:text="Seconds\n10"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:background="@drawable/custom_button"
+        android:text="RESET"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

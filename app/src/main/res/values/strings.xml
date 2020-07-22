@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tapping Game</string>
+    <string-array name="times">
+        <item>10 Seconds</item>
+        <item>30 Seconds</item>
+        <item>60 Seconds</item>
+    </string-array>
+</resources>
